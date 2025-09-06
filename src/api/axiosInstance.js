@@ -3,7 +3,7 @@ import axios from 'axios';
 // Buat instance Axios dengan konfigurasi default
 const axiosInstance = axios.create({
   // Arahkan ke base URL API backend kamu
-  baseURL: 'http://127.0.0.1:8000/api', 
+  baseURL: 'http://10.27.1.71:8000/api', 
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json',
